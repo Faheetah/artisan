@@ -51,7 +51,7 @@ defmodule Artisan.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
-      {:mix_test_watch, "~> 1.2", ruttime: false, only: [:dev, :test]}
+      {:mix_test_watch, "~> 1.2", runtime: false, only: [:dev, :test]}
     ]
   end
 
